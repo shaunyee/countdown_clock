@@ -1,0 +1,58 @@
+.clock {
+	font-size: 10rem;
+	color: white;
+}
+
+.timerContianer {
+	width: 1200px;
+}
+
+.formContainer {
+	width: auto;
+	height: auto;
+	justify-items: center;
+}
+
+input {
+	border-radius: 25px;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	padding: 5px;
+	font-size: 15px;
+	font-weight: bold;
+	color: teal;
+	box-shadow: 2px 3px rgb(53, 99, 99);
+}
+
+input::placeholder {
+	color: teal;
+}
+input:focus {
+	outline: none !important;
+	border: 3px solid teal;
+	box-shadow: 0 0 10px #719ece;
+}
+
+.inputs {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-items: center;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+}
+
+.startTimer {
+	border-radius: 50px;
+	height: 100px;
+	width: 100px;
+	background-color: tomato;
+	font-weight: bold;
+	box-shadow: 2px 3px #ac8282;
+}
+
+button:focus {
+	outline: none !important;
+}
